@@ -1,10 +1,10 @@
 ```racket
 (define q
-  '((lambda (u)
-      `((lambda (u) ,u)
-        ',u))
-    '`((lambda (u) ,u)
-       ',u)))
+  ((lambda (x)
+     `((lambda (x) ,x)
+       ',x))
+   '`((lambda (x) ,x)
+      ',x)))
 
 (equal? q (eval q))
 ```
