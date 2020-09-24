@@ -1,7 +1,7 @@
-```
-'((λ (u)
-    `((λ (u) ,u)
+```scheme
+'((lambda (u)
+    `((lambda (u) ,u)
       ',u))
-  '`((λ (u) ,u)
+  '`((lambda (u) ,u)
      ',u))
 ```
