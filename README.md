@@ -1,3 +1,4 @@
+Lovely.
 
 ```racket
 ;; "is quite a lovely sentence
