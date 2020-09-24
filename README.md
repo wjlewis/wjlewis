@@ -1,9 +1,9 @@
 ```
-(define (t f)
+(define (T f)
   (if (halts? f)
-      (for ever)
+      (loop)
       'done))
-      
-(define (for how-long?)
-  (for how-long?))
+
+(define (loop)
+  (loop))
 ```
