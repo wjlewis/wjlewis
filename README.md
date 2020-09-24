@@ -1,4 +1,4 @@
-```scheme
+```racket
 '((lambda (u)
     `((lambda (u) ,u)
       ',u))
