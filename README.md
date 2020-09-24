@@ -1,9 +1,7 @@
 ```
-(define (T f)
-  (if (halts? f)
-      (loop)
-      'done))
-
-(define (loop)
-  (loop))
+'((λ (u)
+    `((λ (u) ,u)
+      ',u))
+  '`((λ (u) ,u)
+     ',u))
 ```
