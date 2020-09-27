@@ -11,4 +11,6 @@ Lovely!
        ',x))
    '`((lambda (x) ,x)
       ',x)))
+      
+(equal? q (eval q))
 ```
