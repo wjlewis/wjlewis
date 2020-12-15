@@ -1,16 +1,2 @@
-Lovely!
-
-```racket
-;; "is quite a lovely sentence
-;;  when preceded by its own quotation."
-;; is quite a lovely sentence
-;;  when preceded by its own quotation.
-(define q
-  ((lambda (x)
-     `((lambda (x) ,x)
-       ',x))
-   '`((lambda (x) ,x)
-      ',x)))
-      
-(equal? q (eval q))
-```
+I'm interested in just about everything, but I find myself thinking about foundational questions most often.
+Type theory, programming languages, algebra, and categories really excite me.
